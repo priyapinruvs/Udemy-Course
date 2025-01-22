@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0  ;
+}
+body{
+    font-family:"Gabarito", serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.section1__title{
+    color: #892DE1;
+}
+
+.section2{
+
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 50%;
+   padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+}
+.section2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+.section2 input:focus{
+   outline: none;
+}
+.section3{
+    display: flex;
+   gap: 10px;
+}
+/* categories */
+.categories{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+    padding: 10px;
+}
+.categories p{
+    background-color: #892DE1;
+    color: white;
+    border-radius: 40px;
+    padding: 9px;
+}
+
+.categories p:hover{
+    background-color: yellowgreen;
+    color: white;
+    cursor: pointer;
+}
+.Salesimage img{
+    width: 100%;
+}
+.Recommended{
+    margin-top: 10px;
+    padding: 10px;
+      
+}
+.container__Recom{
+   display:flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container__Recom__card{
+    width: 300px;
+    border: solid #892DE1 1px;
+    padding: 5px;
+    margin: 10px;
+
+}
+.container__Recom__card img{
+    width: 100%;
+    height: 50%;
+}
+/* topics */
+.Topics{
+    margin-top: 10px;
+}
+.Topics__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    
+    
+}
+.Topics__container p{
+    border:  solid gray 2px ;
+    border-radius: 5px;
+    flex-basis: 25%;    
+    flex-grow: 1;
+    padding: 10px;
+    
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.footer1{
+    display: flex;
+    gap: 10px;
+}
+.footer__s1, .footer__s2{
+    margin: 10px;
+}
+
+.footer__s3{
+    display: flex;
+    justify-content: space-between;
+}
