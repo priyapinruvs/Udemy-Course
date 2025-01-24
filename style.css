@@ -87,7 +87,9 @@ body{
     width: 300px;
     border: solid #892DE1 1px;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
+    flex-grow: 1;
+    flex-basis: 20%;
 
 }
 .container__Recom__card img{
@@ -167,3 +169,28 @@ body{
         opacity: 1;
     }
    }
+   .Navbar_s4{
+    display: none;
+   }
+
+   /* Media queries */
+@media screen and (max-width:800px) {
+    
+    body{
+        font-size:10px
+    }
+
+
+}
+
+@media screen and (max-width:600px){
+    .container__Recom__card{
+        flex-basis: 40%;
+    }
+    .categories,.section2, .section3{
+        display: none;
+    }
+    .Navbar_s4{
+        display: block;
+    }
+}
